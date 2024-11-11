@@ -2,7 +2,7 @@ version: "3"
 services:
   server:
     ports:
-      - "8000:8000"
+      - "18000:18000"
     volumes:
-      - "./data:/opt/data"
+      - "/media/external-drive/word2vec-for-bioinf2070/:/opt/data"
       - "./src:/app"
